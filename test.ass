@@ -1,0 +1,28 @@
+### exported: Mon Dec 29 15:24:46 2025
+### from:     Arnold 7.4.2.0 [4b653881] windows x86_64 clang-15.0.7 oiio-2.6.3 osl-1.13.3 vdb-11.0.0 adlsdk-9.8.2.57 clmhub-3.1.1.43 rlm-17.0.1 optix-8.0.0 2025/05/06 16:09:47
+### host app: MtoA 5.5.2 7ea71e5c (HEAD) Maya 2026
+### meters_per_unit: 1.000000
+
+
+
+options
+{
+ xres 960
+ yres 540
+}
+
+driver_arv
+{
+ name arv_display
+}
+
+closest_filter
+{
+ name _renderViewDefault/closest_filter
+}
+
+gaussian_filter
+{
+ name arv_display_filter
+}
+
